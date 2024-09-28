@@ -1312,7 +1312,7 @@ local Tab = Window:CreateTab("Map", 10629411698)
 
 local Section = Tab:CreateSection("Other")
     local Button = Tab:CreateButton({
-    Name = "Teleport to Nuclear Plant Activation Locations",
+    Name = "Teletransportar a las ubicaciones de activación de la planta nuclear",
     Callback = function()
     savedPos = player.Character:GetPivot()
     local temp = Instance.new("Part")
