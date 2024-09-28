@@ -39,7 +39,7 @@ local Tab = Window:CreateTab("Items", 6594776225)
 
 local Section = Tab:CreateSection("Settings")
 local Slider = Tab:CreateSlider({
-    Name = "Teleport Time",
+    Name = "Tiempo de teletransporte",
     Range = {1, 10},
     Increment = 1,
     Suffix = "second",
@@ -52,7 +52,7 @@ local Slider = Tab:CreateSlider({
 
 local Section = Tab:CreateSection("Weapons")
  local Button = Tab:CreateButton({
-    Name = "Take Fireaxe",
+    Name = "Tomar hacha de fuego",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -77,7 +77,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take Double Barrel",
+     Name = "Agarra escopeta de doble cañón",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -102,7 +102,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Frying Pan",
+     Name = "Agarra sartén",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -127,7 +127,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take M1887",
+     Name = "Agarra M1887",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -152,7 +152,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take M1866",
+     Name = "agarra M1866",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -177,7 +177,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take Pitchfork",
+     Name = "Agarra horquilla",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -202,7 +202,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Peacemaker",
+     Name = "Agarra pacificador",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -227,7 +227,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M4",
+     Name = "agarra M4",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -252,7 +252,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M60",
+     Name = "agarra M60",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -277,7 +277,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M16",
+     Name = "agarra M16",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -302,7 +302,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take XM25",
+     Name = "agarra XM25",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -327,7 +327,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take 11-87",
+     Name = "agarra 11-87",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -352,7 +352,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M1014",
+     Name = "agarra M1014",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -377,7 +377,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Hardballer",
+     Name = "Agarra Hardballer",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -402,7 +402,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take AR-10",
+     Name = "agarra AR-10",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -427,7 +427,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take PKM",
+     Name = "agarra PKM",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -452,7 +452,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take SVD",
+     Name = "agarra SVD",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -477,7 +477,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Uzi",
+     Name = "agarra Uzi",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -502,7 +502,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Pickaxe",
+     Name = "Agarra pico",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -527,7 +527,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take Thompson",
+     Name = "agarra Thompson",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -552,7 +552,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M3",
+     Name = "agarra M3",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -577,7 +577,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Bar",
+     Name = "Agarra barra",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -602,7 +602,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M1 Garand",
+     Name = "agarra M1 Garand",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -627,7 +627,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M1 Carbine",
+     Name = "agarra M1 Carbine",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -652,7 +652,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M2Flamethrower (Requires Fuel Tank)",
+     Name = "Agarra M2 lanzallamas (requiere tanque de combustible)",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -677,7 +677,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M9",
+     Name = "agarra M9",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -702,7 +702,7 @@ player.Character:PivotTo(savedPos)
         })
 		
 local Button = Tab:CreateButton({
-     Name = "Take Colt Python",
+     Name = "Agarra Colt Python",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -727,7 +727,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Remington870",
+     Name = "agarra Remington870",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -752,7 +752,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take AKs74u",
+     Name = "agarra AKs74u",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -777,7 +777,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Shockwave",
+     Name = "agarra Shockwave",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -802,7 +802,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take 10mm",
+     Name = "agarra 10mm",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -827,7 +827,7 @@ player.Character:PivotTo(savedPos)
         })
 		
 local Button = Tab:CreateButton({
-     Name = "Take Sequoia",
+     Name = "Agarra Sequoia",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -852,7 +852,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take M2 Browning",
+     Name = "Agarra M2 Browning",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -877,7 +877,7 @@ player.Character:PivotTo(savedPos)
         })
 		
 local Button = Tab:CreateButton({
-     Name = "Take M240",
+     Name = "agarra M240",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -902,7 +902,7 @@ player.Character:PivotTo(savedPos)
         })		
 
 local Button = Tab:CreateButton({
-     Name = "Take FAL",
+     Name = "agarra FAL",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -927,7 +927,7 @@ player.Character:PivotTo(savedPos)
         })	
 
 local Button = Tab:CreateButton({
-     Name = "Take Auto5",
+     Name = "agarra Auto5",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -952,7 +952,7 @@ player.Character:PivotTo(savedPos)
         })	
 
 local Button = Tab:CreateButton({
-     Name = "Take Pipewrench",
+     Name = "Agarra llave de tubo",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -978,7 +978,7 @@ player.Character:PivotTo(savedPos)
 
 
 local Button = Tab:CreateButton({
-     Name = "Take RPG-7",
+     Name = "agarra RPG-7",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1004,7 +1004,7 @@ player.Character:PivotTo(savedPos)
 
 
 local Button = Tab:CreateButton({
-     Name = "Take AS-VAL",
+     Name = "agarra AS-VAL",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1030,7 +1030,7 @@ player.Character:PivotTo(savedPos)
 
 local Section = Tab:CreateSection("Items")
 local Button = Tab:CreateButton({
-     Name = "Take Flaregun",
+     Name = "Agarra pistola de bengalas",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1055,7 +1055,7 @@ player.Character:PivotTo(savedPos)
         })
 
 local Button = Tab:CreateButton({
-     Name = "Take Fuel Tank",
+     Name = "Agarra tanque de combustible",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1080,7 +1080,7 @@ player.Character:PivotTo(savedPos)
         }) 
 
 local Button = Tab:CreateButton({
-     Name = "Take Banjo",
+     Name = "agarra Banjo",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1130,7 +1130,7 @@ player.Character:PivotTo(savedPos)
         })		
 
 local Button = Tab:CreateButton({
-     Name = "Take Harmonica",
+     Name = "agarra Harmonica",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1155,7 +1155,7 @@ player.Character:PivotTo(savedPos)
         })	
 		
 local Button = Tab:CreateButton({
-     Name = "Take Medicine",
+     Name = "agarra medicina",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1181,7 +1181,7 @@ player.Character:PivotTo(savedPos)
         })	
 
 local Button = Tab:CreateButton({
-     Name = "Take Medpack",
+     Name = "Agarra botiquín",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1209,7 +1209,7 @@ player.Character:PivotTo(savedPos)
 
 local Section = Tab:CreateSection("Attachments")
 local Button = Tab:CreateButton({
-     Name = "Take M9 Suppressor",
+     Name = "Agarra supresor M9",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1234,7 +1234,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take MAC-10 Suppressor",
+     Name = "Agarra supresor MAC-10",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1259,7 +1259,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take M14 Scope",
+     Name = "Agarra mira M14",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1284,7 +1284,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Take M16 Scope",
+     Name = "Agarro la mira M16",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1361,7 +1361,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-     Name = "Teleport to Sabertooth Arms",
+     Name = "Teletransportar a tienda de armas",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1375,7 +1375,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-     Name = "Teleport to Pawn Shop",
+     Name = "Teletransportar a tienda de empeño",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1390,7 +1390,7 @@ end
 
 local Section = Tab:CreateSection("Main")
  local Button = Tab:CreateButton({
-     Name = "Teleport to Town",
+     Name = "Teletransportar a la ciudad",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1404,7 +1404,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-     Name = "Teleport to Mall",
+     Name = "Teletransportar al centro comercial",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1418,7 +1418,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Garage",
+    Name = "Teletransportar al garaje",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1432,7 +1432,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Church",
+    Name = "Teletransportar a la iglesia",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1446,7 +1446,7 @@ end
     })
 	
  local Button = Tab:CreateButton({
-    Name = "Teleport to Town2",
+    Name = "Teletransportar a Ciudad2",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1460,7 +1460,7 @@ end
     })	
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Redwood",
+    Name = "Teletransportar a Redwood.",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1474,7 +1474,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Nuke Room",
+    Name = "Teletransportar al activamiento de misiles del silo",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1488,7 +1488,7 @@ end
     })
 	
  local Button = Tab:CreateButton({
-    Name = "Teleport to Nuke Server Room",
+    Name = "Teletransportar a la sala de servidores del silo",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1502,7 +1502,7 @@ end
     })	
 	
  local Button = Tab:CreateButton({
-    Name = "Teleport to Nuke Outside",
+    Name = "Teletransportar a la armería del silo",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1516,7 +1516,7 @@ end
     })	
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Farm",
+    Name = "Teletransportar a la granja",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1531,7 +1531,7 @@ end
 	
 	
  local Button = Tab:CreateButton({
-    Name = "Teleport to Helipad",
+    Name = "Teletransportar a la plataforma de helicóptero",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1545,7 +1545,7 @@ end
     })
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Radio Station",
+    Name = "Teletransportar a la estación de radio",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1559,7 +1559,7 @@ end
     })
 	
 	local Button = Tab:CreateButton({
-    Name = "Teleport to Shelter",
+    Name = "Teletransportar a refugio",
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
@@ -1577,7 +1577,7 @@ local Tab = Window:CreateTab("Player", 7992557358)
 
 local Section = Tab:CreateSection("Settings")
 local Slider = Tab:CreateSlider({
-    Name = "Teleport Time",
+    Name = "Tiempo de teletransporte",
     Range = {1, 10},
     Increment = 1,
     Suffix = "second",
@@ -1599,21 +1599,21 @@ end
 
 local Section = Tab:CreateSection("Teleport")
  local Button = Tab:CreateButton({
-    Name = "Save Position",
+    Name = "Guardar posición",
     Callback = function()
 	otherSavedPos = player.Character:GetPivot()
 end
     })
 	
 local Button = Tab:CreateButton({
-    Name = "Load Position",
+    Name = "Teletransportar a la posición guardada",
     Callback = function()
     player.Character:PivotTo(otherSavedPos + Vector3.new(0,4,0))
 end
     })
 	
 local Button = Tab:CreateButton({
-    Name = "Teleport near Boss",
+    Name = "Teletransportar cerca del jefe",
     Callback = function()
 	local temp = game.Workspace.Waifus:GetChildren()
 	for i, boss in pairs(temp) do
@@ -1625,7 +1625,7 @@ end
     })	
 	
 local Button = Tab:CreateButton({
-    Name = "Teleport near random Enemy",
+    Name = "Teletransportar cerca de un enemigo aleatorio",
     Callback = function()
 	local temp = game.Workspace.OtherWaifus:GetChildren()
 	for i, boss in pairs(temp) do
@@ -1639,7 +1639,7 @@ end
     })		
 	
  local Button = Tab:CreateButton({
-    Name = "Teleport to Nuke Code Locations",
+    Name = "Teletransportar a las ubicaciones de los códigos nucleares",
     Callback = function()
 	savedPos = player.Character:GetPivot()
     local temp = Instance.new("Part")
@@ -1701,7 +1701,7 @@ end
     })		
 
  local Button = Tab:CreateButton({
-    Name = "Teleport to Nuke Key Locations",
+    Name = "Teletransportar a las ubicaciones de las llaves nucleares",
     Callback = function()
 	savedPos = player.Character:GetPivot()
     local temp = Instance.new("Part")
@@ -1754,7 +1754,7 @@ end
     })
 	
 local Button = Tab:CreateButton({
-     Name = "Teleport to random unclaimed Car",
+     Name = "Teletransportar a un coche no reclamado aleatorio",
     Callback = function()
 local cars = game.Workspace.Cars:GetChildren()
 local players = game.Players:GetChildren()
@@ -1770,7 +1770,7 @@ end
 	
 local Section = Tab:CreateSection("Ammo")
  local Button = Tab:CreateButton({
-     Name = "Teleport to Heavy Ammo",
+     Name = "Teletransportar a munición pesada",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1797,7 +1797,7 @@ player.Character:PivotTo(savedPos)
         })
 		
  local Button = Tab:CreateButton({
-     Name = "Teleport to Rifle Ammo",
+     Name = "Teletransportar a munición de rifle",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1824,7 +1824,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Teleport to Pistol Ammo",
+     Name = "Teletransportar a munición de pistola",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1851,7 +1851,7 @@ player.Character:PivotTo(savedPos)
         })
 
  local Button = Tab:CreateButton({
-     Name = "Teleport to Explosive Ammo",
+     Name = "Teletransportar a munición explosiva",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
@@ -1878,7 +1878,7 @@ player.Character:PivotTo(savedPos)
         })	
 
  local Button = Tab:CreateButton({
-     Name = "Teleport to Shotgun Ammo",
+     Name = "Teletransportar a munición de escopeta",
     Callback = function()
 local temp = Instance.new("Part")
 temp.Parent = game.Workspace
