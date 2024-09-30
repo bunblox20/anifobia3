@@ -1499,21 +1499,26 @@ end
     game.Debris:AddItem(temp, 2)
     player.Character:PivotTo(temp:GetPivot() + Vector3.new(-20,8,20))
 end
-    })	
+  })	
 	
- local Button = Tab:CreateButton({
+  local Button = Tab:CreateButton({
     Name = "Teleport to Nuke Outside",
     Callback = function()
-    local temp = Instance.new("Part")
-    temp.Parent = game.Workspace
-    temp.Position = Vector3.new(-8514.96387, 210.199524, -3763.24561)
-    temp.CanCollide = false
-    temp.Transparency = 1 
-    temp.Anchored = true
-    game.Debris:AddItem(temp, 2)
-    player.Character:PivotTo(temp:GetPivot() + Vector3.new(-20,70,20))
-end
-    })	
+        local player = game.Players.LocalPlayer -- Obtén al jugador local
+        local temp = Instance.new("Part")
+        temp.Parent = game.Workspace
+        temp.Position = Vector3.new(-8514.96387, 210.199524, -3763.24561)
+        temp.CanCollide = false
+        temp.Transparency = 1 
+        temp.Anchored = true
+        game.Debris:AddItem(temp, 2)
+        
+        -- Teletransporta al jugador
+        player.Character:PivotTo(CFrame.new(temp.Position + Vector3.new(-20,70,20)))
+    end
+})
+
+    
 
  local Button = Tab:CreateButton({
     Name = "Teleport to Farm",
