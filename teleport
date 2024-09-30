@@ -1501,20 +1501,28 @@ end
 end
   })	
 	
+  
   local Button = Tab:CreateButton({
     Name = "Teleport to Nuke Outside",
     Callback = function()
-        local player = game.Players.LocalPlayer -- Obtén al jugador local
+        local player = game.Players.LocalPlayer -- Asegúrate de obtener el jugador local
+        
+        -- Coordenadas a las que quieres teletransportarte
+        local x = -8514.96387
+        local y = 210.199524
+        local z = -3763.24561
+        
+        -- Crear una pieza temporal en esa ubicación para referencia (opcional)
         local temp = Instance.new("Part")
         temp.Parent = game.Workspace
-        temp.Position = Vector3.new(-8514.96387, 210.199524, -3763.24561)
+        temp.Position = Vector3.new(x, y, z)
         temp.CanCollide = false
         temp.Transparency = 1 
         temp.Anchored = true
-        game.Debris:AddItem(temp, 2)
-        
-        -- Teletransporta al jugador
-        player.Character:PivotTo(CFrame.new(temp.Position + Vector3.new(-20,70,20)))
+        game.Debris:AddItem(temp, 2) -- Eliminar la pieza después de 2 segundos
+
+        -- Teletransporta al jugador usando las coordenadas como un CFrame
+        player.Character:PivotTo(CFrame.new(x, y, z) + Vector3.new(-20, 70, 20))
     end
 })
 
