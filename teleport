@@ -1506,7 +1506,7 @@ end
     Callback = function()
     local temp = Instance.new("Part")
     temp.Parent = game.Workspace
-    temp.Position = Vector3.new(-8514.96387, 210.199524, -3763.24561)
+    temp.Position = Vector3.new(-8594.96387, 222.85051, -3778.50465)
     temp.CanCollide = false
     temp.Transparency = 1 
     temp.Anchored = true
