@@ -1497,7 +1497,7 @@ end
     temp.Transparency = 1 
     temp.Anchored = true
     game.Debris:AddItem(temp, 2)
-    player.Character:PivotTo(temp:GetPivot() + Vector3.new(-20,8,20))
+    player.Character:PivotTo(temp:GetPivot() + Vector3.new(8514.96387, 210.199524, -3763.24561))
 end
     })	
 	
